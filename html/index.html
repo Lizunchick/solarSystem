@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>SolarSystem</title>
+    <link rel="stylesheet"  href="../css/main.css" >
+    <script type="text/javascript" src="../js/systemMoving.js"></script>
+</head>
+
+<body>
+<div class="round"style="top:0px;left:300px;width:550px;height:550px;border-radius:275px" >
+
+    <div class="round" style="top:50px;left:50px;width:450px;height:450px;border-radius:225px"title="Сатурн" >
+
+        <div class="round" style="top:50px;left:50px;width:350px;height:350px;border-radius:175px"title="Юпитер">
+
+            <div class="round"style="top:75px;left:75px;width:200px;height:200px;border-radius:100px"title="Марс" >
+
+                <div class="round" style="top:20px;left:20px;width:150px;height:150px;border-radius:75px" title="Земля">
+
+                    <div class="round" style="top:20px;left:20px;width:100px;height:100px;border-radius:50px"title="Венера">
+
+                        <div class="round"style="position:relative;top:20px;left:20px;width:50px;height:50px;border-radius:35px"title="Меркурий">
+        <div class="sun"style="top:12px;left:12px;" title="Солнце"></div>
+
+                            <div class="planet" style="background-color:#ff751d; width: 7px;height: 7px;top:45px;left:30px;"onClick="animation({}, this,6);"title="Меркурий"></div>
+        </div>
+                        <!--onClick="animation({}, this);"-->
+                        <div class="planet" style="background-color:#0f4040;width: 9px;height: 9px;top:100px;left:50px;"onClick="animation({}, this,5);"title="Венера"></div>
+                    </div>
+                    <div class="planet" id="earth" name="earth" style="top:145px;left:75px;"onClick="animation({}, this,4);"title="Земля">
+                        <div class="round"style="top:-7px;left:-7px;width:20px;height:20px;border-radius:50%" title="Луна">
+                            <div id="moon" class="planet" style="top:0px;left:0px;background:lightskyblue; width:4px; height:4px;border-radius: 5px" onclick="animation({},this,0)" title="Луна"></div>
+                        </div>
+                    </div>
+    </div>
+                <div class="planet" style="background-color:darkred;width: 8px;height: 8px;top:196px;left:100px;" onClick="animation({}, this,3);"title="Марс" ></div>
+</div>
+            <div class="planet" style="background-color:orange;width: 20px;height: 20px;top:340px;left:165px;"onClick="animation({}, this,2);"title="Юпитер" ></div>
+            </div>
+        <div class="planet" style="background-color:#9e9350;width: 30px;height: 30px;top:440px;left:220px;"onClick="animation({}, this,1);"title="Сатурн" ></div>
+        </div>
+    <!--<div class="planet" style="top:-75px;left:0px;"></div>-->
+    </div>
+
+</body>
+</html>

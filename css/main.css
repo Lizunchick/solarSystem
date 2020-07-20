@@ -1,0 +1,37 @@
+body {
+    background: url(../img/stars.jpg) no-repeat fixed center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.planet {
+    width: 10px;
+    height: 10px;
+    background: blue;
+    border-radius: 50%;
+   position: absolute;
+    cursor: pointer;
+   /* margin-left: 250px;
+    margin-top: 250px ;*/
+
+}
+.round {
+    position: relative;
+    border: 2px solid #6495c4;
+    /*border-radius: 50px;
+    -webkit-border-radius: 250px;
+    -moz-border-radius: 250px;*/
+
+
+}
+.sun{
+    width: 26px;
+    height: 26px;
+    background: yellow;
+    border-radius: 50%;
+    position: absolute;
+    /*margin: 0 auto;
+    margin-top: 250px ;*/
+
+}
